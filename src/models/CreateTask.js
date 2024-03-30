@@ -38,7 +38,7 @@ const CreateTask = ({ modal, toggle, save }) => {
 
                     </div>
                     <div className="form-group">
-                        <label className='mt-2' > Dscription</label>
+                        <label className='mt-2' > Description</label>
                         <textarea rows="5" className='form-control' name='description' value={description} onChange={handleChange}></textarea>
 
                     </div>
